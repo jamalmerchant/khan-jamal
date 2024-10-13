@@ -1,0 +1,242 @@
+@import url('http://fonts.googleapis.com/css2?family=roboto:wght@400;500;700;900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10;
+}
+
+
+    
+
+.container{
+    width: 100%
+    
+    
+    
+}
+section{
+    padding: 0px 0;
+}
+header{
+    background-image: url(../images/pexels-photo-1078983.jpeg);
+    background-size: cover;
+    
+
+
+    
+}
+
+nav{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    color: brown;
+    padding: 20px;
+    margin: 10px;
+}
+nav h4{
+    color:aqua;
+    font-size: 25px;
+    margin: 30px;
+}
+nav h4 span{
+    color: lawngreen;
+}
+nav ul{
+    list-style: none;
+    margin: 10px 5px 0 15px;
+    padding: 0;
+    display: flex;
+    color: rgb(129, 255, 2);
+    text-align: center;
+    
+
+    
+}
+nav ul li{
+    margin: 5px 15px 5px 10px;
+    padding: 10px;
+    font-size: 18px;
+    
+    
+}
+
+.banner{
+    text-align: center;
+    padding: 100px 0 150px;
+    color: aliceblue;
+}
+.banner span{
+    font-size: small;
+    background-color: red;
+    height: 5px;
+    display: inline-block;
+    font-size: 160px;
+}
+.banner h1{
+    font-size: 40px;
+    color: rgb(129, 255, 2);
+}
+.banner button{
+    background-color: red;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px 0 0 0;
+    
+}
+.banner h3{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    color:white;
+}
+
+
+ .container{  
+  font-size: 90%;  
+}
+
+    
+
+.event-main{
+    display: flex;
+    font-size: 90%;
+}
+.container{
+    
+
+    
+}
+h2{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.event{
+    display: flex;
+    width: 90%;
+    margin: 10px 0 0 20px;
+    
+    
+}
+.event-box{}
+/* .event-box img  */
+
+/* description about */
+
+.awesome{
+    
+    width: 90px;
+}
+
+
+.upcoming p{
+    text-align: center;
+    color:blue;
+    
+    
+}
+.upcoming h5{
+    font-size: 20px;
+    padding: 10px;
+    color:red;
+}
+/* footer */
+
+footer{
+    background-color:black;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+img{
+    
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    font-size: 40px;
+} 
+/* scrool bar end   */
+/* small phone,medium phonenand large phone = 0 =>600px and down*/
+@media only screen and (max-width: 600px) {
+    body{ 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 10;
+    }
+    
+    
+        
+    
+    .container{
+        width: 100%
+        
+        
+        
+    }
+    section{
+        padding: 0px 0;
+    }
+    header{
+        background-image: url(../images/pexels-photo-1078983.jpeg);
+        background-size: cover;
+        
+    
+    
+        
+    }
+    
+    nav{
+        display: flex;
+       justify-content: space-between;
+        align-items: center;
+        color: brown;
+        padding: 20px;
+        margin: 10px;
+    }
+    nav h4{
+        color:aqua;
+        font-size: 25px;
+        margin: 30px;
+    }
+    nav h4 span{
+        color: lawngreen;
+    }
+    nav ul{
+        list-style: none;
+        margin: 10px 5px 0 15px;
+        padding: 0;
+        display: flex;
+        color: rgb(129, 255, 2);
+        text-align: center;
+        
+    
+        
+    }
+    nav ul li{
+        margin: 5px 15px 5px 10px;
+        padding: 10px;
+        font-size: 18px;
+        
+        
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
